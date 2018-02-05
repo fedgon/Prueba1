@@ -73,7 +73,7 @@ body {
 }
 
 .card {
-
+  margin: 20px 0;
   display: inline-block;
 }
 
@@ -98,6 +98,16 @@ body {
 .ct-banco {
   list-style: none;
   padding: 0;
+}
+
+.redes-col {
+  padding-top: 20px;
+  display: block;
+}
+
+.logo-red {
+  width: 25px;
+  margin-right: 10px;
 }
 
 /* pagina BLOG */
