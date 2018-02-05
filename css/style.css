@@ -86,16 +86,9 @@ body {
 
 @media screen and (min-width: 1000px) {
 
-.left {
-  float: left;
+.container {
+  max-width: 100%;
+  text-align: justify;
 }
-
-.right {
-   float: right;
- }
-
- .container {
-     max-width: 100%;
- }
 
 }
