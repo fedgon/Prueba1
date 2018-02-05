@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  text-align: left;
+}
+
+.fix {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar-light .navbar-brand {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.btn-outline-success {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+}
+
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 50px 0 0;
+}
+
+.carousel-indicators {
+    bottom: 30px;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 28px;
+    left: 15%;
+    z-index: 3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #0059758c;
+}
+
+.carousel-item img {
+  width: 100%;
+}
+
+.form-background {
+  background-color: lightgrey;
+  padding: 0.5% 3% 1%;
+}
+
+.p-6 {
+  padding: 20px;
+}
+
+.flex-md-column {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.art-pic {
+  width: 100%;
+}
+
+.contacto {
+  text-align: left;
+}
+
+.ct-banco {
+  list-style: none;
+  padding: 0;
+}
+
+@media screen and (min-width: 1000px) {
+
+.left {
+  float: left;
+}
+
+.right {
+   float: right;
+ }
+
+ .container {
+     max-width: 100%;
+ }
+
+}
